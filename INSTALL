@@ -15,7 +15,6 @@ Quick start with CMake
 
 
 Sequential build:
-    tar zxvf faspsolver.tar.gz
     cd faspsolver
     mkdir Build; cd Build; 
     cmake -DUSE_PARDISO=ON ..
@@ -24,7 +23,6 @@ Sequential build:
 
 
 OpenMP Parallel build:
-    tar zxvf faspsolver.tar.gz
     cd faspsolver
     mkdir Build; cd Build; 
     cmake -DUSE_PARDISO=ON -DUSE_OPENMP=ON ..
