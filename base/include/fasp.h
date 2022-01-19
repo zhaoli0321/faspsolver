@@ -43,7 +43,7 @@
 #define MULTI_COLORS_ORDER ON 
 #define ILU_LEVSCH_OMP ON
 #define MULTI_COLOR_ORDER ON  	// 基于强连通矩阵的GS磨光方法，赵梨，2021.08.21
-#define GS_THETA 0 		// 强连通矩阵的GS磨光方法中的强连通参数,2021.10.20
+#define GS_THETA 0.05 		// 强连通矩阵的GS磨光方法中的强连通参数,2021.10.20
 
 /**
  * \brief For external software package support
